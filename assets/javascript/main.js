@@ -2,10 +2,9 @@ var topics = ["dogs", "cats", "birds"]
 
 $("#add").on("click", function () {
     event.preventDefault();
-    console.log("logged");
     var add = $("#input").val();
     topics.push(add);
-    buttons;
+    buttons();
 });
 
 function buttons() {
